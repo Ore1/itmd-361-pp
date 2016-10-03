@@ -51,6 +51,6 @@ li:last-child {
 /* 445px @ 16px */
 @media screen and (min-width: 27.813em) {
   .content {
-    margin: 0 20% 0 25%;
+    margin: 0 18.75% 0 25%;
   }
 }
