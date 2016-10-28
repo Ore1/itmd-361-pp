@@ -53,9 +53,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #one,
@@ -71,5 +71,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
+  #content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
 
+  #three,
+  #two,
+  #one {
+    float: left;
+    height: 25vw;
+    flex: 1;
+  } 
 }
