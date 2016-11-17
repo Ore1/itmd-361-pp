@@ -5,16 +5,24 @@ For this Production Problem, you and your group are going to establish your grou
 1. Choose one member who will create the GitHub Organization for your team. That member can click the + (plus sign) next to their avatar, or go straight to https://github.com/organizations/new As part of that process, the member creating the organization should also invite the other team members (be sure to find out everyone’s GitHub usernames; those work best). GitHub may also ask you to take a survey, which you can take or just skip. Finally, create a new repository within the organization. Initializing it on GitHub with a `README.md` file is fine, unless you’ve already begun a repository on a group member’s computer. **That will be your shared repository for Project 3.**
 
 2. Write the name of your group members here:
+Ore, Erin, Antoine 
 
 3. Copy and paste the URL for your group’s organization here:
+https://github.com/fragments-of-heaven-magazine
 
 4. Copy and paste the URL for your shared repository here:
+https://github.com/fragments-of-heaven-magazine/fohm
 
 5. Each member of the group should fork the repository (including the group member whose account contains was used to create the GitHub organization for your project).
 
 Write the URL for your personal fork of the repository here:
+https://github.com/Ore1/fohm
 
 6. Each member of the group should clone their forked copy of the repository to his/her computer. Once you have cloned the forked copy, you should add the *group* repository as a second remote. Run `git remote add group` followed by the URL for your group’s repository.
+group https://github.com/fragments-of-heaven-magazine/fohm (fetch)
+group https://github.com/fragments-of-heaven-magazine/fohm (push)
+origin  https://github.com/Ore1/fohm.git (fetch)
+origin  https://github.com/Ore1/fohm.git (push)
 
 Write the output of `git remote -v` from your copy of the forked repository here:
 
@@ -22,4 +30,4 @@ Write the output of `git remote -v` from your copy of the forked repository here
 
 5. From within your fork of the repository on GitHub, open up a pull request. Each group member should review the request before it is merged, and then pull from the group repository to have a complete, up-to-date `README.md` file.
 
-Write the URL of your pull request here:
+Write the URL of your pull request here: https://github.com/fragments-of-heaven-magazine/fohm/pull/3
